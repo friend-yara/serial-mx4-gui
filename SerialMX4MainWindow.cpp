@@ -1,6 +1,9 @@
 #include "SerialMX4MainWindow.h"
 #include "ui_serial-mx4.h"
 
+#include <QSerialPortInfo>
+#include <QComboBox>
+
 namespace {
 float t_fval_o = .0;
 }
@@ -55,6 +58,10 @@ SerialMX4MainWindow::SerialMX4MainWindow(QWidget *parent) :
     /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~ QCustomPlot -> ~~~~~~~~~~~~~~~~~~~~~~~~ */
 
     /**/
+    Q_FOREACH(QSerialPortInfo port, QSerialPortInfo::availablePorts()) {
+      ui->cb_SerialPort->addItem(port.portName());
+      ui->cb_SerialPort_2->addItem(port.portName());
+    }
 }
 
 SerialMX4MainWindow::~SerialMX4MainWindow()

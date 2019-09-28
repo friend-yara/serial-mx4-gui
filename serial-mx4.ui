@@ -118,9 +118,9 @@
     <widget class="QPushButton" name="pb_Connect">
      <property name="geometry">
       <rect>
-       <x>10</x>
+       <x>140</x>
        <y>30</y>
-       <width>231</width>
+       <width>101</width>
        <height>31</height>
       </rect>
      </property>
@@ -131,14 +131,34 @@
     <widget class="QPushButton" name="pb_Disconnect">
      <property name="geometry">
       <rect>
-       <x>10</x>
+       <x>140</x>
        <y>70</y>
-       <width>231</width>
+       <width>101</width>
        <height>31</height>
       </rect>
      </property>
      <property name="text">
       <string>Отключиться</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cb_SerialPort">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cb_SerialPort_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
      </property>
     </widget>
    </widget>
