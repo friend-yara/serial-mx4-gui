@@ -1,0 +1,11 @@
+"C:\Program Files (x86)\Raytek\DataTempMX\DataTempMX.exe"
+
+showResponse#2: Wait write request timeout 18:06:55
+
+"T022.5 X023.9
+T022.5 X023.9
+T022.5 X023.9
+T022.5 X023.9
+T022.5 X023.9
+T022.5 X023.9
+T022.4 X02"... (245)
