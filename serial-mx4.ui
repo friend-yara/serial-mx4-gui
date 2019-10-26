@@ -101,27 +101,27 @@
       <x>10</x>
       <y>10</y>
       <width>251</width>
-      <height>111</height>
+      <height>151</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>11</pointsize>
      </font>
     </property>
     <property name="autoFillBackground">
      <bool>true</bool>
     </property>
     <property name="title">
-     <string> Подключение </string>
+     <string>Устройства</string>
     </property>
     <widget class="QPushButton" name="pb_Connect">
      <property name="geometry">
       <rect>
-       <x>140</x>
-       <y>30</y>
-       <width>101</width>
-       <height>31</height>
+       <x>10</x>
+       <y>120</y>
+       <width>113</width>
+       <height>25</height>
       </rect>
      </property>
      <property name="text">
@@ -131,35 +131,90 @@
     <widget class="QPushButton" name="pb_Disconnect">
      <property name="geometry">
       <rect>
-       <x>140</x>
-       <y>70</y>
-       <width>101</width>
-       <height>31</height>
+       <x>129</x>
+       <y>120</y>
+       <width>112</width>
+       <height>25</height>
       </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>112</width>
+       <height>0</height>
+      </size>
      </property>
      <property name="text">
       <string>Отключиться</string>
      </property>
     </widget>
-    <widget class="QComboBox" name="cb_SerialPort">
+    <widget class="QWidget" name="">
      <property name="geometry">
       <rect>
-       <x>10</x>
+       <x>20</x>
        <y>30</y>
-       <width>121</width>
-       <height>31</height>
+       <width>211</width>
+       <height>27</height>
       </rect>
      </property>
+     <layout class="QHBoxLayout" name="horizontalLayoutSerialPort1">
+      <item>
+       <widget class="QLabel" name="label_SerialPort1">
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Raytek MX4</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="cb_SerialPort">
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="locale">
+         <locale language="English" country="World"/>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </widget>
-    <widget class="QComboBox" name="cb_SerialPort_2">
+    <widget class="QWidget" name="">
      <property name="geometry">
       <rect>
-       <x>10</x>
+       <x>20</x>
        <y>70</y>
-       <width>121</width>
-       <height>31</height>
+       <width>211</width>
+       <height>27</height>
       </rect>
      </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_SerialPort2">
+      <item>
+       <widget class="QLabel" name="label_SerialPort2">
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Датчик MLX</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="cb_SerialPort_2">
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </widget>
    </widget>
    <widget class="QGroupBox" name="TempFormBox">
@@ -197,9 +252,9 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>130</y>
+      <y>170</y>
       <width>251</width>
-      <height>191</height>
+      <height>151</height>
      </rect>
     </property>
     <property name="font">
